@@ -1,0 +1,17 @@
+LLM_Func:
+    LLM_model: 'GPT'
+    Action4code:
+        data_set: 'linux_kernel' # linux_kernel, debian
+        balance: 0 #Whether to use a balanced data set
+        data_size: 108 #
+        seed: 593
+    Beacon:
+        weight: 0
+    Chain:
+        algorithm: 'detail' #vague
+    Discern:
+        algorithm: 'deepsec' # sec  stepthinking secexp cot_summary_thinking deepsec
+
+Small_Model:
+    model_name: "bilstm"
+

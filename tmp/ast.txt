@@ -1,0 +1,24 @@
+func	1:0	5:1	0	static long	usbdev_ioctl
+params	1:25	0:0	1	
+param	1:27	1:46	2	struct file *	file
+param	1:48	1:65	2	unsigned int	cmd
+param	1:67	1:85	2	unsigned long	arg
+stmnts	0:0	4:12	1	
+decl	2:1	2:9	2	int	ret
+water	3:1	0:0	2	ret
+op	3:5	0:0	2	=
+call	3:7	3:60	2	usbdev_do_ioctl
+arg	3:25	3:30	3	file
+water	3:25	0:0	4	file
+arg	3:32	3:36	3	cmd
+water	3:32	0:0	4	cmd
+arg	3:38	3:60	3	(void__user*)arg
+water	3:38	0:0	4	(
+water	3:40	0:0	4	void
+water	3:45	0:0	4	__user
+op	3:52	0:0	4	*
+water	3:54	0:0	4	)
+water	3:56	0:0	4	arg
+water	3:62	0:0	2	;
+return	4:1	4:12	2	ret
+water	4:8	0:0	3	ret
