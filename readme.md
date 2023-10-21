@@ -1,4 +1,4 @@
-# LLM4SEC - Linux Kernel Vulnerability Detection with Two Different Large Language Models
+# BEACON: A Prompts Framework To Drive Large Language Model For Source Code Detection
 
 The overall framework is divided into four parts:
 
