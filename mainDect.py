@@ -15,7 +15,9 @@ import os
 from SmallModel.SmallModel import TensorFlowSmallModel
 import yaml
 
-config_path = os.path.join(os.getcwd(),"config","linux_kernel.yaml")#debian.yaml FFmpeg.yaml LibTIFF.yaml
+config_file = "linux_kernel.yaml"
+
+config_path = os.path.join(os.getcwd(),"config",config_file)#debian.yaml FFmpeg.yaml LibTIFF.yaml
 config = yaml.safe_load(open(config_path,'r',encoding="UTF-8"))
 
 os.environ["HTTP_PROXY"] = os.environ.get('httpproxy')
