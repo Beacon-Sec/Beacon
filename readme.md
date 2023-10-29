@@ -1,4 +1,4 @@
-# BEACON: A Prompts Framework To Drive Large Language Model For Source Code Detection
+# VulBeacon: A Deep Learning Augmented Large Language Model Prompting Framework for Vulnerability Detection
 
 The overall framework is divided into four parts:
 
