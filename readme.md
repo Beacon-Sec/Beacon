@@ -49,7 +49,7 @@ Accessing GPT requires an OpenAI KEY. You need to add a key-value pair to your s
 
 The configuration file is placed in the `config` folder, and the specific contents are explained as follows:
 
-1. `LLM_Func` 
+##### `LLM_Func` 
 
 - `LLM_model`: Set the large language model you want to use, typically "GPT"
 - `Action4code`
@@ -64,7 +64,7 @@ The configuration file is placed in the `config` folder, and the specific conten
 - `Discern`
   - `algorithm`: Set the Discern algorithm, typically "deepsec" other options include "sec" "stepthinking" "secexp" "cot_summary_thinking" "deepsec"
 
-1. `Small_Model` Section
+##### `Small_Model` 
 
 This section is used to configure options related to small models.
 
